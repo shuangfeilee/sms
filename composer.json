@@ -1,0 +1,21 @@
+{
+    "name": "shuangfeilee/sms",
+    "description": "sms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shuangfeilee",
+            "email": "shuangfeilee@yeah.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "shuangfeilee/curl": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mfunc\\": "src/"
+        }
+    }
+}
